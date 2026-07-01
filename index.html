@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Rayan Hossain — AI & Machine Learning Researcher</title>
+<meta name="description" content="Rayan Hossain — Computer Science & Engineering undergraduate at RUET and AI/ML researcher. First-author IEEE paper on attention-enhanced image classification; research in deep learning, computer vision, and multilingual NLP." />
+<meta name="author" content="Rayan Hossain" />
+<link rel="canonical" href="https://rayan239.github.io/" />
+
+<!-- Open Graph / Twitter -->
+<meta property="og:type" content="profile" />
+<meta property="og:title" content="Rayan Hossain — AI & Machine Learning Researcher" />
+<meta property="og:description" content="CSE undergraduate at RUET. First-author IEEE paper on attention-enhanced image classification. Research in deep learning, computer vision & multilingual NLP." />
+<meta property="og:url" content="https://rayan239.github.io/" />
+<meta name="twitter:card" content="summary" />
+
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+<!-- Fonts: Space Grotesk (display) · IBM Plex Sans (body) · IBM Plex Mono (data) -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;450;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="assets/style.css" />
+
+<!-- structured data for search engines -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org","@type":"Person","name":"Rayan Hossain",
+  "jobTitle":"AI & Machine Learning Researcher",
+  "affiliation":{"@type":"CollegeOrUniversity","name":"Rajshahi University of Engineering & Technology (RUET)"},
+  "address":{"@type":"PostalAddress","addressLocality":"Rajshahi","addressCountry":"Bangladesh"},
+  "email":"rayanhossain239@gmail.com",
+  "url":"https://rayan239.github.io/",
+  "sameAs":["https://github.com/rayan239","https://www.linkedin.com/in/rayan-hossain-41337b24b"]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ===================== NAV ===================== -->
+<nav class="nav" aria-label="Primary">
+  <div class="nav-inner">
+    <a class="brand" href="#top" aria-label="Rayan Hossain — home">
+      <span class="mono-dot">RH</span> Rayan Hossain
+    </a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#publication">Publication</a>
+      <a href="#research">Research</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <button class="icon-btn theme-toggle" data-theme-toggle aria-label="Toggle dark mode" title="Toggle theme">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" stroke-linecap="round"/></svg>
+      </button>
+      <a class="nav-cta" href="assets/Rayan-Hossain-CV.pdf" target="_blank" rel="noopener">Download CV</a>
+    </div>
+    <button class="icon-btn nav-burger" data-menu-open aria-label="Open menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" role="dialog" aria-label="Menu">
+  <button class="icon-btn close" data-menu-close aria-label="Close menu">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/></svg>
+  </button>
+  <a href="#about">About</a>
+  <a href="#publication">Publication</a>
+  <a href="#research">Ongoing research</a>
+  <a href="#experience">Experience &amp; education</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+  <a href="assets/Rayan-Hossain-CV.pdf" target="_blank" rel="noopener">Download CV ↓</a>
+</div>
+
+<span id="top"></span>
+<main id="main">
+
+<!-- ===================== HERO ===================== -->
+<header class="hero">
+  <canvas id="lattice" aria-hidden="true"></canvas>
+  <div class="container hero-inner">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <span class="avail"><span class="pulse"></span> Open to research &amp; internship opportunities</span>
+        <h1>Rayan Hossain</h1>
+        <div class="bangla" lang="bn">রায়ান হোসেন</div>
+        <div class="role">// CSE Undergraduate · RUET&nbsp;&nbsp;—&nbsp;&nbsp;AI &amp; Machine Learning Researcher</div>
+        <p class="lede">I build and study <strong>deep learning</strong> systems for
+          <strong>computer vision</strong> and <strong>multilingual NLP</strong> — from
+          attention-enhanced image classifiers to language-invariant emotion detection.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#publication">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5h16v14H4zM4 9h16M9 5v14" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Read my paper
+          </a>
+          <a class="btn btn-ghost" href="assets/Rayan-Hossain-CV.pdf" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Download CV
+          </a>
+        </div>
+        <div class="social-row">
+          <a href="mailto:rayanhossain239@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6" stroke-linecap="round"/></svg>
+          </a>
+          <a href="https://github.com/rayan239" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 0 0 8.8 21.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.3-1.1.6-1.4-2.2-.2-4.6-1.1-4.6-4.9 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.6 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.3.2 2.3.1 2.6.6.7 1 1.6 1 2.7 0 3.8-2.4 4.7-4.6 4.9.3.3.7.9.7 1.9v2.8c0 .3.2.6.7.5A10 10 0 0 0 12 2Z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/rayan-hossain-41337b24b" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1 0-5ZM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.8-2 3.7-2 4 0 4.7 2.6 4.7 6V21h-4v-5.3c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21H9z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <aside class="hero-aside">
+        <div class="avatar-card">
+          <div class="avatar-face">
+            <!-- Swap the monogram for a real photo: put photo.jpg in /assets and
+                 uncomment the <img> line below. -->
+            <!-- <img src="assets/photo.jpg" alt="Rayan Hossain" /> -->
+            <span class="monogram">RH</span>
+          </div>
+          <div class="avatar-meta">
+            <span class="loc">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.3-7-11a7 7 0 0 1 14 0c0 4.7-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              Rajshahi, BD
+            </span>
+            <span>CGPA 3.88</span>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <!-- stat strip -->
+    <div class="stats reveal">
+      <div class="stat"><div class="num">3.88<span class="u">/4.00</span></div><div class="lbl">CGPA · RUET</div></div>
+      <div class="stat"><div class="num">1<span class="u"> · IEEE</span></div><div class="lbl">First-author paper</div></div>
+      <div class="stat"><div class="num">190<span class="u">+</span></div><div class="lbl">CP problems solved</div></div>
+      <div class="stat"><div class="num">3+</div><div class="lbl">Research areas</div></div>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== ABOUT ===================== -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div>
+        <span class="eyebrow">About</span>
+        <div class="section-head" style="margin-bottom:1.6rem">
+          <h2>Turning research ideas into working systems.</h2>
+        </div>
+        <div class="about-body">
+          <p>I'm a Computer Science &amp; Engineering undergraduate at <strong>Rajshahi University
+            of Engineering &amp; Technology (RUET)</strong>, working at the intersection of deep
+            learning, computer vision, and natural language processing.</p>
+          <p>My first-author <strong>IEEE paper</strong> introduced an attention-enhanced pipeline
+            — EfficientNetB3 with CBAM and multi-scale feature fusion — for high-accuracy image
+            classification. I'm currently researching <strong>language-invariant emotion
+            detection</strong> across Bangla, Banglish, and English using contrastive learning.</p>
+          <p>I care about the full arc of research: problem formulation, model design,
+            experimentation, and careful evaluation. I'm especially drawn to <strong>large language
+            models, multimodal AI</strong>, and intelligent systems for low-resource languages.</p>
+        </div>
+        <div style="margin-top:1.8rem">
+          <span class="eyebrow" style="margin-bottom:.9rem;display:flex">Research interests</span>
+          <div class="interest-tags">
+            <span class="tag">Artificial Intelligence</span>
+            <span class="tag">Machine &amp; Deep Learning</span>
+            <span class="tag">Large Language Models</span>
+            <span class="tag">Natural Language Processing</span>
+            <span class="tag">Computer Vision</span>
+            <span class="tag">Multimodal AI</span>
+            <span class="tag">Intelligent Systems</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="about-card reveal">
+        <h4>At a glance</h4>
+        <div class="mini-list">
+          <div class="row"><span class="k">Role</span><span class="val">Researcher, ELITE Research Lab</span></div>
+          <div class="row"><span class="k">Degree</span><span class="val">BSc CSE, RUET · 7th semester</span></div>
+          <div class="row"><span class="k">Focus</span><span class="val">Deep learning · CV · Multilingual NLP</span></div>
+          <div class="row"><span class="k">Based in</span><span class="val">Rajshahi, Bangladesh</span></div>
+          <div class="row"><span class="k">Langs</span><span class="val">Bangla · English</span></div>
+          <div class="row"><span class="k">Status</span><span class="val">Open to research &amp; internships</span></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PUBLICATION ===================== -->
+<section id="publication">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Publication</span>
+      <h2>Featured paper</h2>
+      <p>Peer-reviewed and accepted at an IEEE conference — conceived, written, and implemented independently.</p>
+    </div>
+
+    <article class="pub-card reveal">
+      <span class="pub-badge">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Accepted · First author
+      </span>
+      <h3>EfficientNetB3 with CBAM and Multi-Scale Feature Fusion for High-Accuracy Garbage Image Classification</h3>
+      <p class="pub-venue"><b>ICECTE 2026</b> — International Conference on Electrical, Computer and
+        Telecommunication Engineering, hosted at Rajshahi University of Engineering &amp; Technology (RUET).</p>
+      <div class="pub-meta">
+        <span class="chip">Paper ID <b>1041</b></span>
+        <span class="chip">DOI <b>10.1109/ICECTE69292.2026.11429240</b></span>
+        <span class="chip">Status <b>Accepted for publication</b></span>
+        <span class="chip">Domain <b>Computer Vision</b></span>
+      </div>
+      <p class="pub-desc">A high-accuracy garbage-classification model that augments EfficientNetB3 with
+        the Convolutional Block Attention Module (CBAM) and multi-scale feature fusion. My contribution
+        spans the full manuscript — problem formulation, literature review, methodology, implementation,
+        experimentation, result analysis, and final preparation.</p>
+      <div class="pub-links">
+        <a class="link-btn solid" href="https://ieeexplore.ieee.org/document/11429240" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 4h6v6M20 4l-9 9M10 4H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          IEEE Xplore
+        </a>
+        <a class="link-btn" href="https://doi.org/10.1109/ICECTE69292.2026.11429240" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          DOI link
+        </a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ===================== ONGOING RESEARCH ===================== -->
+<section id="research" style="padding-top:0">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">In progress</span>
+      <h2>Ongoing research</h2>
+    </div>
+    <div class="ongoing reveal">
+      <div class="status"><span class="dot"></span> Active project</div>
+      <h3>Contrastive Learning for Language-Invariant Emotion Detection</h3>
+      <p>Multilingual emotion detection across Bangla, Banglish, and English text. I'm exploring
+        contrastive learning, knowledge distillation, and transformer-based architectures to learn
+        efficient, language-invariant representations for low-resource multilingual NLP.</p>
+      <div class="langset">
+        <span class="chip">Bangla</span>
+        <span class="chip">Banglish</span>
+        <span class="chip">English</span>
+        <span class="chip">Contrastive learning</span>
+        <span class="chip">Knowledge distillation</span>
+        <span class="chip">Transformers</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EXPERIENCE + EDUCATION ===================== -->
+<section id="experience">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Background</span>
+      <h2>Experience &amp; education</h2>
+    </div>
+    <div class="two-col">
+      <div class="col reveal">
+        <h3 class="subh">Research experience</h3>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-date">2026 — Present</div>
+            <div class="tl-title">Researcher</div>
+            <div class="tl-org">ELITE Research Lab</div>
+            <p class="tl-desc">Contributing to AI/ML research — model development, experimentation,
+              performance evaluation, and documentation across computer vision and NLP applications.</p>
+          </div>
+          <div class="tl-item">
+            <div class="tl-date">Research internship</div>
+            <div class="tl-title">Research Intern</div>
+            <div class="tl-org">Code Studio AI Research Lab</div>
+            <p class="tl-desc">Hands-on experience with deep-learning classification: large image
+              datasets, preprocessing and augmentation, model training, and optimization.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col reveal">
+        <h3 class="subh">Education</h3>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-date">Dec 2022 — Present</div>
+            <div class="tl-title">BSc in Computer Science &amp; Engineering</div>
+            <div class="tl-org">Rajshahi University of Engineering &amp; Technology (RUET)</div>
+            <p class="tl-desc">Currently in the 7th semester.</p>
+            <span class="tl-grade">CGPA 3.88 / 4.00</span>
+          </div>
+          <div class="tl-item">
+            <div class="tl-date">2021</div>
+            <div class="tl-title">Higher Secondary Certificate (HSC)</div>
+            <div class="tl-org">National Ideal College</div>
+            <span class="tl-grade">GPA 5.00 / 5.00</span>
+          </div>
+          <div class="tl-item">
+            <div class="tl-date">2019</div>
+            <div class="tl-title">Secondary School Certificate (SSC)</div>
+            <div class="tl-org">National Ideal School, Dhaka</div>
+            <span class="tl-grade">GPA 5.00 / 5.00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROJECTS ===================== -->
+<section id="projects">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Selected work</span>
+      <h2>Projects</h2>
+      <p>From research prototypes to full-stack applications and games.</p>
+    </div>
+    <div class="proj-grid">
+
+      <article class="proj reveal">
+        <div class="pj-top">
+          <span class="pj-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="1.6"/><path d="M4 16l4-4 4 4 3-3 5 5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span class="pj-tag">AI / CV</span>
+        </div>
+        <h4>SmartWasteVision</h4>
+        <p>AI-powered web app for automated garbage classification and smart recycling management,
+          built on the paper's deep-learning pipeline.</p>
+        <div class="stack"><span>Deep Learning</span><span>Image Processing</span><span>Augmentation</span></div>
+      </article>
+
+      <article class="proj reveal">
+        <div class="pj-top">
+          <span class="pj-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 13l2-5h14l2 5M5 13h14v5a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z" stroke-linecap="round" stroke-linejoin="round"/><circle cx="8" cy="17" r="1"/><circle cx="16" cy="17" r="1"/></svg></span>
+          <span class="pj-tag">Web app</span>
+        </div>
+        <h4>Car Marketplace Platform</h4>
+        <p>A modern, responsive marketplace with browsing, search, and car-listing features and
+          authenticated user accounts.</p>
+        <div class="stack"><span>React</span><span>Clerk Auth</span><span>Tailwind CSS</span></div>
+      </article>
+
+      <article class="proj reveal">
+        <div class="pj-top">
+          <span class="pj-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 20V8l8-4 8 4v12M4 20h16M9 20v-6h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span class="pj-tag">Front-end</span>
+        </div>
+        <h4>Personal Portfolio</h4>
+        <p>A clean personal portfolio site designed and built from scratch.</p>
+        <div class="stack"><span>HTML</span><span>CSS</span></div>
+      </article>
+
+      <article class="proj reveal">
+        <div class="pj-top">
+          <span class="pj-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 4c4 0 7 3 7 6s-3 4-7 4-7 1-7 4M12 4C8 4 6 6 6 8" stroke-linecap="round"/><circle cx="12" cy="9" r="1.4"/></svg></span>
+          <span class="pj-tag">Game</span>
+        </div>
+        <h4>Flappy Bird</h4>
+        <p>A 2D arcade game built across a multi-language toolchain.</p>
+        <div class="stack"><span>Dart</span><span>C++</span><span>CMake</span><span>Swift</span></div>
+      </article>
+
+      <article class="proj reveal">
+        <div class="pj-top">
+          <span class="pj-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3l3 6 6 .5-4.5 4 1.4 6L12 16l-5.9 3.5 1.4-6L3 9.5 9 9z" stroke-linejoin="round"/></svg></span>
+          <span class="pj-tag">Game</span>
+        </div>
+        <h4>Plane Shooter</h4>
+        <p>A classic plane-shooting arcade game implemented in Python.</p>
+        <div class="stack"><span>Python</span></div>
+      </article>
+
+      <article class="proj reveal" style="background:linear-gradient(135deg,color-mix(in srgb,var(--accent) 12%,var(--surface)),var(--surface))">
+        <div class="pj-top">
+          <span class="pj-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2a10 10 0 1 0 10 10" stroke-linecap="round"/><path d="M12 6v6l4 2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span class="pj-tag">More</span>
+        </div>
+        <h4>More on GitHub</h4>
+        <p>Experiments, coursework, and competitive-programming solutions.</p>
+        <div class="stack"><a class="link-btn" href="https://github.com/rayan239" target="_blank" rel="noopener" style="padding:.4rem .7rem;font-size:.78rem">github.com/rayan239 →</a></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SKILLS ===================== -->
+<section id="skills">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Toolkit</span>
+      <h2>Technical skills</h2>
+    </div>
+    <div class="skill-grid">
+      <div class="skill-card reveal">
+        <h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M13 6l-2 12" stroke-linecap="round" stroke-linejoin="round"/></svg>Languages</h4>
+        <div class="pills"><span>Python</span><span>C</span><span>C++</span><span>Java</span><span>JavaScript</span><span>Assembly</span></div>
+      </div>
+      <div class="skill-card reveal">
+        <h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><circle cx="5" cy="6" r="1.6"/><circle cx="19" cy="6" r="1.6"/><circle cx="5" cy="18" r="1.6"/><circle cx="19" cy="18" r="1.6"/><path d="M6.4 7l3.6 3.6M17.6 7L14 10.6M6.4 17l3.6-3.6M17.6 17L14 13.4"/></svg>Machine Learning &amp; AI</h4>
+        <div class="pills"><span>Supervised Learning</span><span>Deep Learning</span><span>Transfer Learning</span><span>Feature Engineering</span><span>Model Evaluation</span><span>Hyperparameter Tuning</span></div>
+      </div>
+      <div class="skill-card reveal">
+        <h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12l8-5M8 12l8 5"/></svg>Neural Networks</h4>
+        <div class="pills"><span>ANN</span><span>CNN</span><span>RNN</span><span>LSTM</span><span>GRU</span><span>Transformers</span><span>Attention Mechanisms</span></div>
+      </div>
+      <div class="skill-card reveal">
+        <h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12h4l2-6 4 12 2-6h4" stroke-linecap="round" stroke-linejoin="round"/></svg>Deep Learning Concepts</h4>
+        <div class="pills"><span>Activation &amp; Loss Functions</span><span>Optimizers</span><span>Backpropagation</span><span>Batch Norm</span><span>Regularization</span><span>Fine-Tuning</span></div>
+      </div>
+      <div class="skill-card reveal">
+        <h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M3 17l5-3 4 2 3-2 6 4" stroke-linecap="round" stroke-linejoin="round"/></svg>Computer Vision</h4>
+        <div class="pills"><span>Image Classification</span><span>Object Detection</span><span>Image Processing</span><span>Data Augmentation</span><span>Transfer Learning</span></div>
+      </div>
+      <div class="skill-card reveal">
+        <h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5h16M4 5v14M4 12h10M8 19h12M20 5v14" stroke-linecap="round"/></svg>Natural Language Processing</h4>
+        <div class="pills"><span>Text Classification</span><span>Emotion Detection</span><span>Multilingual NLP</span><span>Embeddings</span><span>Transformer Architectures</span><span>LLMs</span></div>
+      </div>
+      <div class="skill-card reveal">
+        <h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z" stroke-linejoin="round"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Frameworks &amp; Libraries</h4>
+        <div class="pills"><span>TensorFlow</span><span>Keras</span><span>Scikit-learn</span><span>OpenCV</span><span>NumPy</span><span>Pandas</span><span>Matplotlib</span></div>
+      </div>
+      <div class="skill-card reveal">
+        <h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3v6l-4 4a2 2 0 0 0 0 3l4 4M15 3v6l4 4a2 2 0 0 1 0 3l-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg>Tools &amp; Platforms</h4>
+        <div class="pills"><span>Git</span><span>GitHub</span><span>Linux (Ubuntu)</span><span>MySQL</span><span>VS Code</span><span>Overleaf</span><span>LaTeX</span></div>
+      </div>
+    </div>
+
+    <!-- achievements -->
+    <div class="section-head" style="margin-top:3.4rem">
+      <span class="eyebrow">Recognition</span>
+      <h2>Achievements</h2>
+    </div>
+    <div class="ach-grid">
+      <div class="ach reveal"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M8 21h8M12 17v4M6 4h12v4a6 6 0 0 1-12 0zM6 5H3v2a3 3 0 0 0 3 3M18 5h3v2a3 3 0 0 1-3 3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><div class="t">First Author — IEEE Conference Paper</div><div class="s">ICECTE 2026</div></div></div>
+      <div class="ach reveal"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2a5 5 0 0 1 5 5c0 4-5 8-5 8s-5-4-5-8a5 5 0 0 1 5-5z" stroke-linejoin="round"/><circle cx="12" cy="7" r="1.6"/></svg></span><div><div class="t">Research Intern</div><div class="s">Code Studio AI Research Lab</div></div></div>
+      <div class="ach reveal"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 19V5m0 14h16M8 15v4M12 9v10M16 12v7M20 6v13" stroke-linecap="round"/></svg></span><div><div class="t">CGPA 3.88 / 4.00</div><div class="s">RUET</div></div></div>
+      <div class="ach reveal"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 17l5-5 3 3 8-8M15 4h5v5" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><div class="t">Codeforces max rating 1039</div><div class="s">Competitive programming</div></div></div>
+      <div class="ach reveal"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M9 11l3 3L22 4M21 12v7a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h11" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><div class="t">190+ problems solved</div><div class="s">Codeforces</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="contact-inner">
+      <div>
+        <span class="eyebrow">Get in touch</span>
+        <h2>Let's build something intelligent.</h2>
+        <p>I'm open to AI/ML research, internships, and software-development opportunities.
+          The fastest way to reach me is email.</p>
+        <a class="btn btn-primary" href="mailto:rayanhossain239@gmail.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6" stroke-linecap="round"/></svg>
+          Email me
+        </a>
+      </div>
+      <div class="contact-card reveal">
+        <a class="row" href="mailto:rayanhossain239@gmail.com">
+          <span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6" stroke-linecap="round"/></svg></span>
+          <span><span class="cl">Email</span><br><span class="cv">rayanhossain239@gmail.com</span></span>
+        </a>
+        <a class="row" href="tel:+8801532523297">
+          <span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L20 18l-1 3a15 15 0 0 1-14-14z" stroke-linejoin="round"/></svg></span>
+          <span><span class="cl">Phone</span><br><span class="cv">01532523297</span></span>
+        </a>
+        <a class="row" href="https://github.com/rayan239" target="_blank" rel="noopener">
+          <span class="ci"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 0 0 8.8 21.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.3-1.1.6-1.4-2.2-.2-4.6-1.1-4.6-4.9 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.6 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.3.2 2.3.1 2.6.6.7 1 1.6 1 2.7 0 3.8-2.4 4.7-4.6 4.9.3.3.7.9.7 1.9v2.8c0 .3.2.6.7.5A10 10 0 0 0 12 2Z"/></svg></span>
+          <span><span class="cl">GitHub</span><br><span class="cv">github.com/rayan239</span></span>
+        </a>
+        <a class="row" href="https://www.linkedin.com/in/rayan-hossain-41337b24b" target="_blank" rel="noopener">
+          <span class="ci"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1 0-5ZM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.8-2 3.7-2 4 0 4.7 2.6 4.7 6V21h-4v-5.3c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21H9z"/></svg></span>
+          <span><span class="cl">LinkedIn</span><br><span class="cv">in/rayan-hossain</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="container foot-inner">
+    <div class="foot-brand"><span class="mono-dot" style="width:26px;height:26px;font-size:.7rem">RH</span> Rayan Hossain <span class="bn" lang="bn">· রায়ান হোসেন</span></div>
+    <div class="foot-note">© <span id="year">2026</span> · Rajshahi, Bangladesh · Built from scratch</div>
+    <a class="btn btn-ghost to-top" href="#top" style="padding:.5rem .9rem;font-size:.85rem">
+      Back to top ↑
+    </a>
+  </div>
+</footer>
+
+<script src="assets/script.js" defer></script>
+</body>
+</html>
